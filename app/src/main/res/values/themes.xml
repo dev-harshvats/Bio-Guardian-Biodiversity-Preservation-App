@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <style name="Theme.MySplashScreen" parent="Theme.SplashScreen">
+        <item name="windowSplashScreenBackground">@color/white</item>
+        <item name="windowSplashScreenAnimatedIcon">@drawable/bio_guardian_logo</item>
+        <item name="postSplashScreenTheme">@style/Theme.bio_guardian</item>
+    </style>
+
+    <style name="Theme.bio_guardian" parent="android:Theme.Material.Light.NoActionBar" />
+</resources>
